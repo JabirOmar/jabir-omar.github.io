@@ -1,0 +1,31 @@
+{
+    "logo": [
+        {
+            "image": "./images/main/logo.png"
+        }
+    ],
+    "middle-nav": [
+        {
+            "name1": "Mammals",
+            "name2": "Rebtiles",
+            "name3": "Birds",
+            "name4": "Contact",
+            "name5": "User"
+        }
+    ],
+    "right-images": [
+        {
+            "image1": "./images/main/night-mode.png",
+            "image2": "./images/main/user.png"
+        }
+    ],
+    "welcoming-text": [
+        {
+            "title1": "Explore",
+            "title2": "More",
+            "title3": "about",
+            "title4": "Animal",
+            "title5": "Zoo"
+        }
+    ]
+}
