@@ -6,8 +6,37 @@
     font-family: 'Poppins';
     scroll-behavior: smooth;
 }
+h1, h2 p{
+    color: black;
+}
 body{
     background-color: #dcdcdc;
+    transition: 1s;
+}
+body.dark{
+    background-color: rgb(0, 10, 14);
+    transition: 1s;
+}
+/* body.active h1,h2,p{
+    color: white;
+} */
+body.dark .form-box{
+    background-color: transparent;
+}
+body.dark .form-box .join-box{
+    background-color: transparent;
+}
+body.dark .form-box .join-box img{
+    background-color: transparent;
+}
+body.dark .form-box .comment-intro h1{
+    color: rgb(0, 170, 255);
+}
+body.dark .phone p{
+    color: rgb(0, 170, 255);
+}
+body.dark .mail p{
+    color: rgba(0, 170, 255);
 }
 
 
@@ -28,6 +57,9 @@ nav{
     justify-content: space-between;
     box-shadow: 0 0 8px 2px;
 }
+body.dark nav{
+    background-color: rgba(3, 24, 34);
+}
 
 /* ------------------- Left bar ------------------- */
 
@@ -41,6 +73,7 @@ nav{
     width: 30px;
     height: 30px;
     padding: 10px;
+    background-color: #cdcdcd;
     border-radius: 50%;
 }
 
@@ -63,6 +96,9 @@ nav{
     text-transform: capitalize;
     font-weight: 300;
 }
+body.dark .middle-nav ul li{
+    color: white;
+}
 .middle-nav ul #last-li{
     display: none;
 }
@@ -84,6 +120,7 @@ nav{
     width: 30px;
     height: 30px;
     padding: 10px;
+    background-color: #cdcdcd;
     border-radius: 50%;
 }
 .right-images #user{
@@ -110,7 +147,7 @@ nav{
 }
 .menu-box.active .bar:nth-child(2){
     opacity: 0;
-    transition: 1s;
+    transition: 0.5s;
 }
 .menu-box.active .bar:nth-child(3){
     transform: translateY(-8px) rotate(-135deg);
@@ -123,8 +160,8 @@ nav{
 
 .hero{
     height: 70vh;
-    background-image: url(./images/main/tiger.jpeg);
-    background-position: top;
+    background-image: url(./images/main/wolf.jpg);
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
     margin-top: 50px;
@@ -139,6 +176,9 @@ nav{
 }
 #welcoming-text span{
     color: darkgreen;
+}
+body.dark #welcoming-text h1{
+    color: #cdcdcd;
 }
 
 
@@ -165,6 +205,19 @@ nav{
     align-items: center;
     text-align: center;
 }
+body.dark .intro{
+    border: 1px solid #cdcdcd;
+}
+.intro:hover{
+    transform: rotateX(360deg);
+    transition: 1.5s;
+}
+.intro h2{
+    color: black;
+}
+body.dark .intro h2{
+    color: #cdcdcd;
+}
 .intro h2 span{
     color: darkgreen;
 }
@@ -181,12 +234,11 @@ nav{
     align-items: center;
     text-align: center;
 }
-#hero2 h2{
-    color: white;
-}
-#hero2 h2 span{
-    color: yellow;
-}
+
+
+/* -----------------------------------------------
+------------------ Mammals Style -----------------
+-------------------------------------------------- */
 
 
 .title-container{
@@ -212,6 +264,253 @@ nav{
 
 
 
+/* Mammals box */
+
+.mammals-big-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.animals-container{
+    width: 85%;
+    height: 500px;
+    display: flex;
+    margin: 20px 0;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+body.dark .animals-container{
+    border: 1px solid #cdcdcd;
+}
+.animals-container img{
+    width: 40%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.animals-container .info{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+body.dark .animals-container .info{
+    color: #cdcdcd;
+}
+.info .info-text{
+    width: 80%;
+    
+}
+.info-text p span{
+    color: green;
+    font-weight: bold;
+}
+
+
+/* Rebtiles box styling starts*/
+
+.Rebtiles-big-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+
+/* Birds box  styling starts*/
+.birds-big-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+
+/* Birds box styling ends */
+
+
+
+
+
+
+
+
+
+.form-box{
+    width: 85%;
+    height: 75vh;
+    margin: 0 auto;
+    margin-bottom: 400px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+}
+
+.right-form{
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid;
+}
+body.dark .form-box {
+    border: 1px solid white;
+    color: white;
+}
+.join-box{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(47, 116, 116);
+    display: flex;
+    flex-direction: column;
+
+}
+.comment-intro{
+    width: 100%;
+    height: 60%;
+    padding: 5% 10%;
+}
+.comment-intro p{
+    color: lightgrey;
+    margin-right: 15px;
+}
+.right-form img{
+    width: 100%;
+    height: 40%;
+    background-color: rgb(47, 116, 116);
+}
+body.dark .form-box .right-form .join-box .phone img{
+    border: 1px solid white;
+    background-color: #cdcdcd;
+    border-radius: 20%;
+    padding: 10px;
+}
+body.dark .form-box .right-form .join-box .mail img{
+    border: 1px solid white;
+    background-color: #cdcdcd;
+    border-radius: 20%;
+    padding: 10px;
+}
+.phone{
+    display: flex;
+    align-items: center;
+}
+.phone p{
+    color: black;
+}
+.phone img{
+    width: 30px;
+    height: auto;
+    margin-right: 15px;
+}
+.mail{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.mail p{
+    color: black;
+}
+.mail img{
+    width: 30px;
+    height: auto;
+    margin-right: 15px;
+}
+
+
+
+
+
+.left-form{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding:0 5%;
+    background-color: rgb(110, 74, 12);
+}
+.left-form .inputs{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.left-form label{
+    margin-left: 10px;
+}
+.input-box{
+    border: 1px solid;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.inputs input{
+    color: black;
+    font-size: 16px;
+}
+body.dark .form-box .left-form .input-box, .inputs input{
+    border: 1px solid white;
+    color: #cdcdcd;
+}
+.inputs input{
+    width: 80%;
+    height: 30px;
+    margin-left: 10px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+#comment-section{
+    width: 100%;
+    height: 180px;
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#comment-section textarea{
+    width: 70%;
+    height: 120px;
+    padding: 20px;
+    outline: none;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+#submit-area{
+    width: 100%;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#submit{
+    width: 70%;
+    height: 30px;
+    background-color: rgb(65, 184, 65);
+    outline: none;
+    border: none;
+}
+
+
+
+
+
+footer{
+    height: 30vh;
+    background-color: rgb(12, 12, 14);
+}
+
+
 
 
 
@@ -227,12 +526,41 @@ nav{
 ----------------- Responsive -----------------
 ---------------------------------------------- */
 
+@media screen and (Max-width: 800px) {
+
+    .animals-container{
+        flex-direction: column;
+        height: 700px;
+    }
+    .animals-container img{
+        width: 100%;
+        height: 40%;
+        border-radius: 0;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    .animals-container .info{
+        width: 100%;
+        height: 60%;
+        border-radius: 0;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    .info-text h2{
+        text-align: center;
+    }
+    
+}
+
 @media screen and (Max-width: 650px) {
     .right-nav #user{
         display: none;
     }
     .menu-box{
         display: block;
+    }
+    body.dark .menu-box .bar{
+        background-color: #cdcdcd;
     }
     .middle-nav{
         position: absolute;
@@ -243,7 +571,9 @@ nav{
         background-color: #cdcdcd;
         justify-content: center;
         transition: 1s;
-
+    }
+    body.dark .middle-nav{
+        background-color: rgba(3, 24, 34);
     }
     .middle-nav ul{
         display: block;
@@ -271,8 +601,26 @@ nav{
         flex-direction: column;
 
     }
-    .intro{
-        margin: 25px 0;
+
+    .animals-container .info{
+        padding-bottom: 20px;
+    }
+
+    .form-box{
+        height: 152vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .right-form{
+        width: 100%;
+        height: 50%;
+        border-right: none;
+        border-bottom: 1px solid;
+    }
+    .left-form{
+        width: 90%;
+        height: 50%;
+     
     }
 
 }

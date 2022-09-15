@@ -27,5 +27,144 @@
             "title4": "Animal",
             "title5": "Zoo"
         }
+    ],
+    "intro": [
+        {
+            "intro_first": "Different",
+            "intro_span": "Types",
+            "intro_last": "of Animals"
+        },
+        {
+            "intro_first": "Awesome",
+            "intro_span": "Images",
+            "intro_last": "of Animlas"
+        },
+        {
+            "intro_first": "Different",
+            "intro_span": "facts",
+            "intro_last": "about Zoo Animals"
+        }
+    ],
+    "Mammals": [
+        {
+            "id": 1,
+            "name": "Tiger",
+            "animal_type": "Mammal.",
+            "active_time": "Tigers typically hunt at night.",
+            "length_min": "6.5 ft.",
+            "length_max": "12.7 ft.",
+            "weight_min": "143 lbs.",
+            "weight_max": "683 lbs.",
+            "life_span": "8 - 10 Years",
+            "habitat": "Rain forest, GrassLands, Savannas and mangrove swamps",
+            
+            "diet": "Meat Only",
+            "geo_range": "Part of South and East Asia",
+            "image": "./images/mammals/tiger.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Squirrel",
+            "animal_type": "Mammal.",
+            "active_time": "Early in the day.",
+            "length_min": "1.2 ft. ",
+            "length_max": "1.7 ft.",
+            "weight_min": "1 lb",
+            "weight_max": "1.5 lb",
+            "life_span": "5 - 10 Years",
+            "habitat": "Tropical rainforest to Semiarid desert",
+            "geo_range": "Every continent except in Australia and Antarctica",
+            "diet": "Squirrels mainly eat fungi, seeds, nuts and fruits",
+            "image": "./images/mammals/squirrel.jpg"
+        }
+    ],
+    "Rebtiles": [
+        {
+            "id": 1,
+            "name": "Anaconda",
+            "animal_type": "Rebtile.",
+            "active_time": "Tigers typically hunt at night.",
+            "length_min": "6.5 ft.",
+            "length_max": "12.7 ft.",
+            "weight_min": "143 lbs.",
+            "weight_max": "683 lbs.",
+            "life_span": "8 - 10 Years",
+            "habitat": "Rain forest, GrassLands, Savannas and mangrove swamps",
+            "diet": "Meat Only",
+            "geo_range": "Part of South and East Asia",
+            "image": "./images/rebtiles/anaconda.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Iguana",
+            "animal_type": "Mammal.",
+            "active_time": "Early in the day.",
+            "length_min": "1.2 ft. ",
+            "length_max": "1.7 ft.",
+            "weight_min": "1 lb",
+            "weight_max": "1.5 lb",
+            "life_span": "5 - 10 Years",
+            "habitat": "Tropical rainforest to Semiarid desert",
+            "geo_range": "Every continent except in Australia and Antarctica",
+            "diet": "Squirrels mainly eat fungi, seeds, nuts and fruits",
+            "image": "./images/rebtiles/iguana.jpg"
+        }
+    ],
+    "Birds": [
+        {
+            "id": 1,
+            "name": "Hoopoes",
+            "animal_type": "Bird",
+            "active_time": "Tigers typically hunt at night.",
+            "length_min": "6.5 ft.",
+            "length_max": "12.7 ft.",
+            "weight_min": "143 lbs.",
+            "weight_max": "683 lbs.",
+            "life_span": "8 - 10 Years",
+            "habitat": "Rain forest, GrassLands, Savannas and mangrove swamps",
+            
+            "diet": "Meat Only",
+            "geo_range": "Part of South and East Asia",
+            "image": "./images/birds/hoopoes.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Eagle",
+            "animal_type": "Mammal.",
+            "active_time": "Early in the day.",
+            "length_min": "1.2 ft. ",
+            "length_max": "1.7 ft.",
+            "weight_min": "1 lb",
+            "weight_max": "1.5 lb",
+            "life_span": "5 - 10 Years",
+            "habitat": "Tropical rainforest to Semiarid desert",
+            "geo_range": "Every continent except in Australia and Antarctica",
+            "diet": "Squirrels mainly eat fungi, seeds, nuts and fruits",
+            "image": "./images/birds/eagle.jpg"
+        }
+    ],
+    "form_box": [
+        {
+            "header": "Contact with us",
+            "intro": "Feel free to contact with us",
+            "intro2": "To gain more knowledge about Animals.",
+            "image1": "./images/main/telephone.png",
+            "phone": "+251 7433 34304",
+            "image2": "./images/main/email.png",
+            "my_email": "Jabiromar400@gmail.com",
+            "manImage": "./images/main/join.svg",
+
+            "fullName": "Full Name",
+            "name_palceholder": "Enter your full name",
+
+            "Phone_number": "Phone number",
+            "phone_placeholder": "Phone number",
+
+            "email": "Email",
+            "email_placeholder": "Your email here",
+
+            "comment_placeholder": "Write your comment here if you have one...",
+            "submit": "submit"
+        }
     ]
 }
